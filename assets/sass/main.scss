@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//abstracts (variables, functions, mixins, placeholders)
+//vendors (bootstrap, jquery-ui)
+//base (reset, typography)
+@import './base/reset';
+@import './base/typography';
+@import './base/estilos-testimonios';
+
+//layout (navigation, grid, header, footer, slidebar, forms)
+//components (button, carousel, cover, dropdown)
+@import './components/carousel';
+@import './components/tooltips';
+//pages (home, contact)
+@import './pages/home';
+//themes (theme, admin)

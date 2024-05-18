@@ -1,0 +1,10 @@
+.carousel-item {
+    height: 500px;
+}
+
+@media screen and (max-width: 380px) {
+    .carousel-item, .carousel-indicators {
+        height: 300px;
+    }
+    
+}
